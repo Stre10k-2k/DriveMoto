@@ -1,0 +1,142 @@
+.footer-main-h3 {
+    font-size: 25px;
+}
+.footer-main-div-1 {
+    padding-left: 100px;
+}
+.footer-link {
+    color: #48494D;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-link:checked {
+    border-bottom: 2px solid #1C62CD;
+    color: #2F3035;
+}
+.footer-card-1-button {
+    display: none;
+    text-transform: uppercase;
+    border: none;
+}
+.footer-div-links {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.footer-div-1-div-1-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-div-1-button-1 {
+    padding: 5px 15px;
+    text-transform: uppercase;
+    background-color: #1C62CD;
+    font-size: 12px;
+    color: white;
+    border: none;
+}
+.footer-img-responsive {
+    display: none;
+}
+.footer-div-1-img {
+    width: 200px;
+    height: 133px;
+}
+.footer-div-1-card-1 {
+    width: 220px;
+}
+.footer-div-1-card-2 {
+    width: 220px;
+}
+.footer-div-1-h3 {
+   color: #2F3035;
+   font-size: 20px;
+   text-align: center;
+}
+.footer-div-1-h4 {
+    color: #2F3035;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.footer-div-1-card-1-link {
+    color: #1C62CD;
+    text-decoration: solid;
+    text-decoration-color: #1C62CD;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: center;
+}
+.footer-div-2-price {
+    color: #2F3035;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer-div-2-div-1-nav {
+    display: flex;
+    justify-content: end;
+}
+.footer-main-div-cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.footer-main-2-h3 {
+    width: 210px;
+    font-size: 14px;
+}
+.footer-input-1 {
+    width: 200px;
+    border: none;
+    height: 25px;
+}
+.footer-button {
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background-color: #1C62CD;
+    font-size: 11px;
+    padding: 9px 15px;
+}
+.footer-main-div-2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-main-2-div-links {
+    text-decoration: none;
+    color: #2F3035;
+    font-size: 14px;
+}
+.footer-main-2-div-h3 {
+    color: #2F3035;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.footer-main-div-2- {
+    width: 80px;
+}
+.footer-main-div-3- {
+    display: flex;
+    flex-direction: column;
+}
+.footer-main-logo {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    font-size: 30px;
+}
+.footer-div-about-h3 {
+    font-size: 10px;
+    color: #48494D;
+}
+.footer-div-about {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
