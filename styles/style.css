@@ -9,9 +9,14 @@
     text-decoration: none;
     font-size: 15px;
 }
-.footer-link:hover {
+.footer-link:checked {
     border-bottom: 2px solid #1C62CD;
     color: #2F3035;
+}
+.footer-card-1-button {
+    display: none;
+    text-transform: uppercase;
+    border: none;
 }
 .footer-div-links {
     display: flex;
@@ -31,11 +36,17 @@
     color: white;
     border: none;
 }
+.footer-img-responsive {
+    display: none;
+}
 .footer-div-1-img {
     width: 200px;
     height: 133px;
 }
 .footer-div-1-card-1 {
+    width: 220px;
+}
+.footer-div-1-card-2 {
     width: 220px;
 }
 .footer-div-1-h3 {
