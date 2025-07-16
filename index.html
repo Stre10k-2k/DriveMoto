@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Интернет-магазин</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    
+
+  <section class="main-search-bar">
+    <div class="main-search-tabs">
+      <button class="main-tab active">Поиск по номеру</button>
+      <button class="main-tab">Поиск по марке</button>
+      <button class="main-tab">Поиск по названию товара</button>
+    </div>
+    <div class="main-search-input">
+      <input type="text" placeholder="Введите марку" />
+      <button>ИСКАТЬ</button>
+    </div>
+  </section>
+
+  <section class="main-categories">
+    <div class="main-category-card">
+      <img src="./kvadra.png" alt="Квадроциклы">
+      <p>Квадроциклы</p>
+    </div>
+    <div class="main-category-card">
+      <img src="./gidro.png" alt="Гидроциклы">
+      <p>Гидроциклы</p>
+    </div>
+    <div class="main-category-card">
+      <img src="./kater.png" alt="Катера">
+      <p>Катера</p>
+    </div>
+    <div class="main-category-card">
+      <img src="./snagoxod.png" alt="Снегоходы">
+      <p>Снегоходы</p>
+    </div>
+    <div class="main-category-card">
+      <img src="./rmvector551 1 (2).png" alt="Вездеходы">
+      <p>Вездеходы</p>
+    </div>
+    <div class="main-category-card">
+      <img src="./dvigateli.png" alt="Двигатели">
+      <p>Двигатели</p>
+    </div>
+  </section>
+
+  <section class="main-popular-products">
+    <h2>Популярные товары</h2>
+    <div class="main-tabs">
+      <button class="main-tab active">Запчасти</button>
+      <button class="main-tab">Моторы</button>
+      <button class="main-tab">Шины</button>
+      <button class="main-tab">Электроника</button>
+      <button class="main-tab">Инструменты</button>
+      <button class="main-tab">Аксессуары</button>
+    </div>
+    <div class="main-product-grid">
+      <div class="main-product-card">
+        <img src="./rugzag.jpg" alt="Рюкзак" />
+        <h4>Водонепроницаемый Рюкзак</h4>
+        <p>9 800 ₽</p>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="main-product-card main-sale">
+        <img src="/jelet.jpg" alt="Жилет" />
+        <h4>Жилет BRP Airflow PFD</h4>
+        <p>6 900 ₽</p>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="main-product-card">
+        <img src="./audio.jpg" alt="Аудиосистема" />
+        <h4>BRP Audio-Premium</h4>
+        <p>68 000 ₽</p>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="main-product-card main-sale">
+        <img src="/snaryajeniya.jpg" alt="Снаряжение" />
+        <h4>Спасательное снаряжение</h4>
+        <p>Нет в наличии</p>
+        <small><a href="#">Сообщить о поступлении</a></small>
+      </div>
+    </div>
+    <button class="main-show-more">ПОКАЗАТЬ ЕЩЁ</button>
+  </section>
+
+  <section class="main-banner">
+    <div>
+      <h3>СКИДКИ на все запчасти до 70%</h3>
+      <button>ПОСМОТРЕТЬ ВСЕ</button>
+    </div>
+  </section>
+
 </body>
 </html>
